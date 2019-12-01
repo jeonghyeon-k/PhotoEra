@@ -1,0 +1,303 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.photoera"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:6:5-80
+12-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:6:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.CAMERA" />
+14-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:8:5-65
+14-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:8:22-62
+15
+16    <uses-feature android:name="android.hardware.camera" />
+16-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:10:5-60
+16-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:10:19-57
+17
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:12:5-79
+18-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:13:5-79
+19-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:13:22-76
+20    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+20-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:14:5-81
+20-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:14:22-78
+21
+22    <uses-feature
+22-->[com.google.android.gms:play-services-maps:16.0.0] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/684d4db5036d357c3bd999ca511d7995/jetified-play-services-maps-16.0.0/AndroidManifest.xml:26:5-28:35
+23        android:glEsVersion="0x00020000"
+23-->[com.google.android.gms:play-services-maps:16.0.0] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/684d4db5036d357c3bd999ca511d7995/jetified-play-services-maps-16.0.0/AndroidManifest.xml:27:9-41
+24        android:required="true" />
+24-->[com.google.android.gms:play-services-maps:16.0.0] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/684d4db5036d357c3bd999ca511d7995/jetified-play-services-maps-16.0.0/AndroidManifest.xml:28:9-32
+25
+26    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+26-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:5-68
+26-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:24:22-65
+27    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+27-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:5-82
+27-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:26:22-79
+28
+29    <application
+29-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:16:5-74:19
+30        android:allowBackup="true"
+30-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:17:9-35
+31        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+31-->[androidx.core:core:1.0.1] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/d856a2ad07d784cae061be131eb0ba9a/core-1.0.1/AndroidManifest.xml:22:18-86
+32        android:debuggable="true"
+33        android:icon="@mipmap/photoera"
+33-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:18:9-40
+34        android:label="@string/app_name"
+34-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:19:9-41
+35        android:largeHeap="true"
+35-->[net.alhazmy13.ImageFilters:library:0.1.2-beta] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/1817bced54669993322d4ccf613388b6/library-0.1.2-beta/AndroidManifest.xml:11:18-42
+36        android:roundIcon="@mipmap/ic_launcher_round"
+36-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:20:9-54
+37        android:supportsRtl="true"
+37-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:21:9-35
+38        android:testOnly="true"
+39        android:theme="@style/AppTheme" >
+39-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:22:9-40
+40        <activity android:name="com.example.photoera.PhotoActivity" />
+40-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:23:9-51
+40-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:23:19-48
+41        <activity android:name="com.example.photoera.MyPhotoActivity" />
+41-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:24:9-53
+41-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:24:19-50
+42        <activity android:name="com.example.photoera.UploadActivity" />
+42-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:25:9-52
+42-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:25:19-49
+43        <activity android:name="com.example.photoera.PopupActivity" />
+43-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:26:9-51
+43-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:26:19-48
+44        <activity android:name="com.example.photoera.CommentActivity" />
+44-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:27:9-53
+44-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:27:19-50
+45        <activity android:name="com.example.photoera.ChatActivity" />
+45-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:28:9-50
+45-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:28:19-47
+46        <activity android:name="com.example.photoera.UserEditActivity" />
+46-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:29:9-54
+46-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:29:19-51
+47        <activity android:name="com.example.photoera.StartActivity" />
+47-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:30:9-51
+47-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:30:19-48
+48        <activity android:name="com.example.photoera.ShoutingActivity" />
+48-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:31:9-54
+48-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:31:19-51
+49        <activity android:name="com.example.photoera.ShoutListActivity" />
+49-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:32:9-54
+49-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:32:19-52
+50        <activity android:name="com.example.photoera.MypageActivity" />
+50-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:33:9-51
+50-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:33:19-49
+51        <activity android:name="com.example.photoera.FindActivity" />
+51-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:34:9-50
+51-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:34:19-47
+52        <activity android:name="com.example.photoera.RegistActivity" />
+52-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:35:9-52
+52-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:35:19-49
+53
+54        <meta-data
+54-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:36:9-38:71
+55            android:name="com.google.android.maps.v2.API_KEY"
+55-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:37:13-62
+56            android:value="AIzaSyCTdFfKsOrga2jpP14Iv_IUXw40xUU3R-0" />
+56-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:38:13-68
+57
+58        <activity android:name="com.example.photoera.UnityPlayerActivity" />
+58-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:39:9-57
+58-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:39:19-54
+59        <activity android:name="com.example.photoera.LoginActivity" >
+59-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:40:9-46:20
+59-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:40:19-48
+60            <intent-filter>
+60-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:41:13-45:29
+61                <action android:name="android.intent.action.MAIN" />
+61-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:42:17-69
+61-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:42:25-66
+62
+63                <category android:name="android.intent.category.LAUNCHER" />
+63-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:44:17-77
+63-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:44:27-74
+64            </intent-filter>
+65        </activity>
+66
+67        <service android:name="com.example.photoera.MyFirebaseMessagingService" >
+67-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:49:9-53:19
+67-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:49:18-59
+68            <intent-filter>
+68-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:50:13-52:29
+69                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+69-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:51:17-78
+69-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:51:25-75
+70            </intent-filter>
+71        </service>
+72        <!--
+73     Set custom default icon. This is used when no icon is set for incoming notification messages.
+74     See README(https://goo.gl/l4GJaQ) for more.
+75        -->
+76        <meta-data
+76-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:56:9-58:49
+77            android:name="com.google.firebase.messaging.default_notification_icon"
+77-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:57:13-83
+78            android:resource="@drawable/user" />
+78-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:58:13-46
+79        <!--
+80             Set color used with incoming notification messages. This is used when no color is set for the incoming
+81             notification message. See README(https://goo.gl/6BKBk7) for more.
+82        -->
+83        <meta-data
+83-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:61:9-63:53
+84            android:name="com.google.firebase.messaging.default_notification_color"
+84-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:62:13-84
+85            android:resource="@color/colorAccent" />
+85-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:63:13-50
+86        <meta-data
+86-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:64:9-66:41
+87            android:name="com.google.firebase.messaging.default_notification_channel_id"
+87-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:65:13-89
+88            android:value="defaultid" />
+88-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:66:13-38
+89        <meta-data
+89-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:67:9-69:37
+90            android:name="firebase_messaging_auto_init_enabled"
+90-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:68:13-64
+91            android:value="false" />
+91-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:69:13-34
+92        <meta-data
+92-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:70:9-72:37
+93            android:name="firebase_analytics_collection_enabled"
+93-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:71:13-65
+94            android:value="false" />
+94-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:72:13-34
+95
+96        <!--
+97             FirebaseMessagingService performs security checks at runtime,
+98             no need for explicit permissions despite exported="true"
+99        -->
+100        <service
+100-->[com.google.firebase:firebase-messaging:17.3.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/eed968998aeee10c66f5e6d63c3b09f1/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:28:9-34:19
+101            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+101-->[com.google.firebase:firebase-messaging:17.3.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/eed968998aeee10c66f5e6d63c3b09f1/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:29:13-82
+102            android:exported="true" >
+102-->[com.google.firebase:firebase-messaging:17.3.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/eed968998aeee10c66f5e6d63c3b09f1/jetified-firebase-messaging-17.3.4/AndroidManifest.xml:30:13-36
+103            <intent-filter android:priority="-500" >
+103-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:50:13-52:29
+104                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+104-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:51:17-78
+104-->/Users/2youngh/Downloads/PhotoEra /app/src/main/AndroidManifest.xml:51:25-75
+105            </intent-filter>
+106        </service>
+107
+108        <activity
+108-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:24:9-31:50
+109            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+109-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:25:13-85
+110            android:excludeFromRecents="true"
+110-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:26:13-46
+111            android:exported="true"
+111-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:27:13-36
+112            android:launchMode="singleTask"
+112-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:28:13-44
+113            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+113-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:29:13-102
+114            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+114-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:30:13-72
+115
+116        <service
+116-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:33:9-39:19
+117            android:name="com.google.firebase.components.ComponentDiscoveryService"
+117-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:34:13-84
+118            android:exported="false" >
+118-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:35:13-37
+119            <meta-data
+119-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:36:13-38:85
+120                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+120-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:37:17-109
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[com.google.firebase:firebase-auth:16.0.5] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/cc700a5d3eb5376c398bd73b9e35ed46/jetified-firebase-auth-16.0.5/AndroidManifest.xml:38:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:32:13-34:85
+123                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+123-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:33:17-96
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:34:17-82
+125        </service>
+126
+127        <receiver
+127-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:37:9-44:20
+128            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+128-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:38:13-78
+129            android:exported="true"
+129-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:39:13-36
+130            android:permission="com.google.android.c2dm.permission.SEND" >
+130-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:40:13-73
+131            <intent-filter>
+131-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:41:13-43:29
+132                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+132-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:17-81
+132-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:42:25-78
+133            </intent-filter>
+134        </receiver>
+135        <!--
+136             FirebaseInstanceIdService performs security checks at runtime,
+137             no need for explicit permissions despite exported="true"
+138        -->
+139        <service
+139-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:50:9-56:19
+140            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+140-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:51:13-77
+141            android:exported="true" >
+141-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:52:13-36
+142            <intent-filter android:priority="-500" >
+142-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:13-55:29
+142-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:53:28-51
+143                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+143-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:17-80
+143-->[com.google.firebase:firebase-iid:17.0.4] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/8c33f95811f43f153030e10c4accb093/jetified-firebase-iid-17.0.4/AndroidManifest.xml:54:25-77
+144            </intent-filter>
+145        </service>
+146
+147        <provider
+147-->[com.google.firebase:firebase-common:16.0.3] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/ad412db77f941d009fbc84f63e287bc5/jetified-firebase-common-16.0.3/AndroidManifest.xml:10:9-14:39
+148            android:name="com.google.firebase.provider.FirebaseInitProvider"
+148-->[com.google.firebase:firebase-common:16.0.3] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/ad412db77f941d009fbc84f63e287bc5/jetified-firebase-common-16.0.3/AndroidManifest.xml:11:13-77
+149            android:authorities="com.example.photoera.firebaseinitprovider"
+149-->[com.google.firebase:firebase-common:16.0.3] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/ad412db77f941d009fbc84f63e287bc5/jetified-firebase-common-16.0.3/AndroidManifest.xml:12:13-72
+150            android:exported="false"
+150-->[com.google.firebase:firebase-common:16.0.3] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/ad412db77f941d009fbc84f63e287bc5/jetified-firebase-common-16.0.3/AndroidManifest.xml:13:13-37
+151            android:initOrder="100" />
+151-->[com.google.firebase:firebase-common:16.0.3] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/ad412db77f941d009fbc84f63e287bc5/jetified-firebase-common-16.0.3/AndroidManifest.xml:14:13-36
+152
+153        <activity
+153-->[com.google.android.gms:play-services-base:16.0.1] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/06cf526101621fcd373926677053a0c7/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+154            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+154-->[com.google.android.gms:play-services-base:16.0.1] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/06cf526101621fcd373926677053a0c7/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+155            android:exported="false"
+155-->[com.google.android.gms:play-services-base:16.0.1] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/06cf526101621fcd373926677053a0c7/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+156            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+156-->[com.google.android.gms:play-services-base:16.0.1] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/06cf526101621fcd373926677053a0c7/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+157
+158        <meta-data
+158-->[com.google.android.gms:play-services-basement:16.1.0] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/493b39e9ee40fdd22676cbe4d8ebfc02/jetified-play-services-basement-16.1.0/AndroidManifest.xml:23:9-25:69
+159            android:name="com.google.android.gms.version"
+159-->[com.google.android.gms:play-services-basement:16.1.0] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/493b39e9ee40fdd22676cbe4d8ebfc02/jetified-play-services-basement-16.1.0/AndroidManifest.xml:24:13-58
+160            android:value="@integer/google_play_services_version" />
+160-->[com.google.android.gms:play-services-basement:16.1.0] /Users/2youngh/.gradle/caches/transforms-2/files-2.1/493b39e9ee40fdd22676cbe4d8ebfc02/jetified-play-services-basement-16.1.0/AndroidManifest.xml:25:13-66
+161    </application>
+162
+163</manifest>

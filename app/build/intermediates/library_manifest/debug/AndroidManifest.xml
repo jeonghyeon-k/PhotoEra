@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.photoera" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.example.photoera.UploadActivity" />
+        <activity android:name="com.example.photoera.PopupActivity" />
+        <activity android:name="com.example.photoera.CommentActivity" />
+        <activity android:name="com.example.photoera.ChatActivity" />
+        <activity android:name="com.example.photoera.UserEditActivity" />
+        <activity android:name="com.example.photoera.PhotoActivity" />
+        <activity android:name="com.example.photoera.StartActivity" />
+        <activity android:name="com.example.photoera.MypageActivity" />
+        <activity android:name="com.example.photoera.FindActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCTdFfKsOrga2jpP14Iv_IUXw40xUU3R-0" />
+
+        <activity android:name="com.example.photoera.UnityPlayerActivity" />
+        <activity android:name="com.example.photoera.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.photoera.RegistActivity" />
+    </application>
+
+</manifest>
