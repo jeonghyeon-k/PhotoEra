@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/2youngh/Downloads/Aproject/PhotoEra/app/build/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_button_bar_material.xml",
+        "source": "/Users/2youngh/.gradle/caches/transforms-2/files-2.1/4b1d54629fa0914950d4d0ce1b8264ea/appcompat-1.0.2/res/layout-watch-v20/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/Users/2youngh/Downloads/Aproject/PhotoEra/app/build/intermediates/res/merged/release/layout-watch-v20/abc_alert_dialog_title_material.xml",
+        "source": "/Users/2youngh/.gradle/caches/transforms-2/files-2.1/4b1d54629fa0914950d4d0ce1b8264ea/appcompat-1.0.2/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
+    }
+]
