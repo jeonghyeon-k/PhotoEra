@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.photoera"
+    android:installLocation="auto"
+    android:targetSandboxVersion="2"
+    android:versionCode="1"
+    android:versionName="0.1" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" >
+    </uses-permission>
+
+    <uses-feature android:name="android.hardware.camera" >
+    </uses-feature>
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <uses-feature android:glEsVersion="0x00020000" />
+    <uses-feature
+        android:name="android.hardware.location.gps"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.location"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.sensor.accelerometer"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.touchscreen.multitouch.distinct"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true" >
+        <activity android:name="com.example.photoera.UploadActivity" >
+        </activity>
+        <activity android:name="com.example.photoera.PopupActivity" />
+        <activity android:name="com.example.photoera.CommentActivity" />
+        <activity android:name="com.example.photoera.ChatActivity" />
+        <activity android:name="com.example.photoera.WriteActivity" />
+        <activity android:name="com.example.photoera.UserEditActivity" />
+        <activity android:name="com.example.photoera.PhotoActivity" />
+        <activity android:name="com.example.photoera.StartActivity" />
+        <activity android:name="com.example.photoera.MypageActivity" />
+        <activity android:name="com.example.photoera.FindActivity" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyCTdFfKsOrga2jpP14Iv_IUXw40xUU3R-0" />
+
+        <activity android:name="com.example.photoera.UnityPlayerActivity" />
+        <activity android:name="com.example.photoera.LoginActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.notch_support"
+                android:value="true" />
+        </activity>
+        <activity android:name="com.example.photoera.RegistActivity" />
+
+        <meta-data
+            android:name="unity.build-id"
+            android:value="6e09d1f9-ff04-4765-a356-4c04f89f3a27" />
+        <meta-data
+            android:name="unity.splash-mode"
+            android:value="0" />
+        <meta-data
+            android:name="unity.splash-enable"
+            android:value="True" />
+        <meta-data
+            android:name="notch.config"
+            android:value="portrait|landscape" />
+    </application>
+
+</manifest>

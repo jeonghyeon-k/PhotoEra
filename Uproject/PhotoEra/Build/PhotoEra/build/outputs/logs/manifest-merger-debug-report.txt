@@ -1,0 +1,219 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:70-100
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:1-48:12
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:2:101-131
+uses-permission#android.permission.INTERNET
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:3:3-65
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:3:20-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:4:3-5:21
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:4:20-75
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:6:3-79
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:6:20-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:7:3-8:21
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:7:20-60
+uses-feature#android.hardware.camera
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:9:3-10:18
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:9:17-55
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:11:3-77
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:11:20-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:12:3-77
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:12:20-74
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:13:3-79
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:13:20-76
+application
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:14:3-40:17
+	android:supportsRtl
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:14:76-102
+	android:label
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:14:43-75
+	android:icon
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:14:103-134
+	android:allowBackup
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:14:16-42
+activity#com.example.photoera.UploadActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:15:5-16:16
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:15:15-45
+activity#com.example.photoera.PopupActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:17:5-47
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:17:15-44
+activity#com.example.photoera.CommentActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:18:5-49
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:18:15-46
+activity#com.example.photoera.ChatActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:19:5-46
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:19:15-43
+activity#com.example.photoera.WriteActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:20:5-47
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:20:15-44
+activity#com.example.photoera.UserEditActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:21:5-50
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:21:15-47
+activity#com.example.photoera.PhotoActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:22:5-47
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:22:15-44
+activity#com.example.photoera.StartActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:23:5-47
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:23:15-44
+activity#com.example.photoera.MypageActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:24:5-48
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:24:15-45
+activity#com.example.photoera.FindActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:25:5-46
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:25:15-43
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:26:5-124
+	android:value
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:26:66-121
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:26:16-65
+activity#com.example.photoera.UnityPlayerActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:27:5-53
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:27:15-50
+activity#com.example.photoera.LoginActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:28:5-34:16
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:28:15-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:29:7-32:23
+action#android.intent.action.MAIN
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:30:9-61
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:30:17-58
+category#android.intent.category.LAUNCHER
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:31:19-66
+meta-data#android.notch_support
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:33:7-78
+	android:value
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:33:55-75
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:33:18-54
+activity#com.example.photoera.RegistActivity
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:35:5-48
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:35:15-45
+meta-data#unity.build-id
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:36:5-101
+	android:value
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:36:46-98
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:36:16-45
+meta-data#unity.splash-mode
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:37:5-69
+	android:value
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:37:49-66
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:37:16-48
+meta-data#unity.splash-enable
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:38:5-74
+	android:value
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:38:51-71
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:38:16-50
+meta-data#notch.config
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:39:5-81
+	android:value
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:39:44-78
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:39:16-43
+uses-feature#0x00020000
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:41:3-52
+	android:glEsVersion
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:41:17-49
+uses-feature#android.hardware.location.gps
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:42:3-89
+	android:required
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:42:62-86
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:42:17-61
+uses-feature#android.hardware.location
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:43:3-85
+	android:required
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:43:58-82
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:43:17-57
+uses-feature#android.hardware.sensor.accelerometer
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:44:3-97
+	android:required
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:44:70-94
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:44:17-69
+uses-feature#android.hardware.touchscreen
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:45:3-88
+	android:required
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:45:61-85
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:45:17-60
+uses-feature#android.hardware.touchscreen.multitouch
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:46:3-99
+	android:required
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:46:72-96
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:46:17-71
+uses-feature#android.hardware.touchscreen.multitouch.distinct
+ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:47:3-108
+	android:required
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:47:81-105
+	android:name
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml:47:17-80
+uses-sdk
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+		ADDED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml
+		INJECTED from /Users/2youngh/Downloads/Uproject/PhotoEra/Build/PhotoEra/src/main/AndroidManifest.xml

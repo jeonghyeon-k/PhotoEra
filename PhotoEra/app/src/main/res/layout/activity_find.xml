@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#293a80"
+    tools:context="com.example.photoera.FindActivity">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textSize="30dp"
+
+        android:text="아이디 찾기"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="이름과 저장된 생년원일을 입력하시면,      아이디를 찾아드립니다."
+
+        android:textColor="#AFAFAF"/>
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="이름"
+        android:textColorHint="#AFAFAF"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/userBirth"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:hint="생년월일"
+        android:textColorHint="#AFAFAF"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/findBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="아이디 찾기"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        android:text="비밀번호 찾기"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:text="저장된 이메일을 입력하시면,    비밀번호를 찾아드립니다."
+
+        android:textColor="#AFAFAF"/>
+
+
+    <EditText
+        android:id="@+id/userEmail"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center_horizontal"
+        android:textSize="16dp"
+        android:hint="이메일"
+        android:textColorHint="#AFAFAF"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/findBtn2"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:layout_gravity="center_horizontal"
+        android:text="비밀번호 찾기"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:textColor="#AFAFAF"
+        android:id="@+id/textviewMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
